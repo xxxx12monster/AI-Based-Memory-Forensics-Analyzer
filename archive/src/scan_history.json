@@ -1,0 +1,380 @@
+[
+  {
+    "timestamp": "2025-12-16 02:20:43",
+    "sample_id": 0,
+    "status": "Benign",
+    "type": "N/A",
+    "confidence": 99.99999999984624,
+    "anomaly_score": 0.08666778188869234,
+    "is_anomaly": false
+  },
+  {
+    "timestamp": "2025-12-16 02:20:43",
+    "sample_id": 1,
+    "status": "Benign",
+    "type": "N/A",
+    "confidence": 99.99999999912382,
+    "anomaly_score": 0.13273732873247368,
+    "is_anomaly": false
+  },
+  {
+    "timestamp": "2025-12-16 02:20:43",
+    "sample_id": 2,
+    "status": "Benign",
+    "type": "N/A",
+    "confidence": 99.99999999973416,
+    "anomaly_score": 0.11103458049769704,
+    "is_anomaly": false
+  },
+  {
+    "timestamp": "2025-12-16 02:20:43",
+    "sample_id": 3,
+    "status": "Malware",
+    "type": "Ransomware",
+    "confidence": 99.98731412941781,
+    "anomaly_score": 0.12619524948306182,
+    "is_anomaly": false
+  },
+  {
+    "timestamp": "2025-12-16 02:20:43",
+    "sample_id": 4,
+    "status": "Malware",
+    "type": "Ransomware",
+    "confidence": 99.99651163272199,
+    "anomaly_score": 0.13064564872543533,
+    "is_anomaly": false
+  },
+  {
+    "timestamp": "2025-12-16 02:20:43",
+    "sample_id": 5,
+    "status": "Malware",
+    "type": "Ransomware",
+    "confidence": 99.99997331106128,
+    "anomaly_score": 0.13550422778705934,
+    "is_anomaly": false
+  },
+  {
+    "timestamp": "2025-12-16 02:21:29",
+    "sample_id": 0,
+    "status": "Benign",
+    "type": "N/A",
+    "confidence": 99.99999999984624,
+    "anomaly_score": 0.08666778188869234,
+    "is_anomaly": false
+  },
+  {
+    "timestamp": "2025-12-16 02:21:29",
+    "sample_id": 1,
+    "status": "Benign",
+    "type": "N/A",
+    "confidence": 99.99999999912382,
+    "anomaly_score": 0.13273732873247368,
+    "is_anomaly": false
+  },
+  {
+    "timestamp": "2025-12-16 02:21:29",
+    "sample_id": 2,
+    "status": "Benign",
+    "type": "N/A",
+    "confidence": 99.99999999973416,
+    "anomaly_score": 0.11103458049769704,
+    "is_anomaly": false
+  },
+  {
+    "timestamp": "2025-12-16 02:21:29",
+    "sample_id": 3,
+    "status": "Malware",
+    "type": "Ransomware",
+    "confidence": 99.98731412941781,
+    "anomaly_score": 0.12619524948306182,
+    "is_anomaly": false
+  },
+  {
+    "timestamp": "2025-12-16 02:21:29",
+    "sample_id": 4,
+    "status": "Malware",
+    "type": "Ransomware",
+    "confidence": 99.99651163272199,
+    "anomaly_score": 0.13064564872543533,
+    "is_anomaly": false
+  },
+  {
+    "timestamp": "2025-12-16 02:21:29",
+    "sample_id": 5,
+    "status": "Malware",
+    "type": "Ransomware",
+    "confidence": 99.99997331106128,
+    "anomaly_score": 0.13550422778705934,
+    "is_anomaly": false
+  },
+  {
+    "timestamp": "2025-12-16 02:21:41",
+    "sample_id": 0,
+    "status": "Benign",
+    "type": "N/A",
+    "confidence": 99.99999999984624,
+    "anomaly_score": 0.08666778188869234,
+    "is_anomaly": false
+  },
+  {
+    "timestamp": "2025-12-16 02:21:41",
+    "sample_id": 1,
+    "status": "Benign",
+    "type": "N/A",
+    "confidence": 99.99999999912382,
+    "anomaly_score": 0.13273732873247368,
+    "is_anomaly": false
+  },
+  {
+    "timestamp": "2025-12-16 02:21:41",
+    "sample_id": 2,
+    "status": "Benign",
+    "type": "N/A",
+    "confidence": 99.99999999973416,
+    "anomaly_score": 0.11103458049769704,
+    "is_anomaly": false
+  },
+  {
+    "timestamp": "2025-12-16 02:21:41",
+    "sample_id": 3,
+    "status": "Malware",
+    "type": "Ransomware",
+    "confidence": 99.98731412941781,
+    "anomaly_score": 0.12619524948306182,
+    "is_anomaly": false
+  },
+  {
+    "timestamp": "2025-12-16 02:21:41",
+    "sample_id": 4,
+    "status": "Malware",
+    "type": "Ransomware",
+    "confidence": 99.99651163272199,
+    "anomaly_score": 0.13064564872543533,
+    "is_anomaly": false
+  },
+  {
+    "timestamp": "2025-12-16 02:21:41",
+    "sample_id": 5,
+    "status": "Malware",
+    "type": "Ransomware",
+    "confidence": 99.99997331106128,
+    "anomaly_score": 0.13550422778705934,
+    "is_anomaly": false
+  },
+  {
+    "timestamp": "2025-12-16 02:24:35",
+    "sample_id": 0,
+    "status": "Benign",
+    "type": "N/A",
+    "confidence": 99.99999999984624,
+    "anomaly_score": 0.08666778188869234,
+    "is_anomaly": false
+  },
+  {
+    "timestamp": "2025-12-16 02:24:35",
+    "sample_id": 1,
+    "status": "Benign",
+    "type": "N/A",
+    "confidence": 99.99999999912382,
+    "anomaly_score": 0.13273732873247368,
+    "is_anomaly": false
+  },
+  {
+    "timestamp": "2025-12-16 02:24:35",
+    "sample_id": 2,
+    "status": "Benign",
+    "type": "N/A",
+    "confidence": 99.99999999973416,
+    "anomaly_score": 0.11103458049769704,
+    "is_anomaly": false
+  },
+  {
+    "timestamp": "2025-12-16 02:24:35",
+    "sample_id": 3,
+    "status": "Malware",
+    "type": "Ransomware",
+    "confidence": 99.98731412941781,
+    "anomaly_score": 0.12619524948306182,
+    "is_anomaly": false
+  },
+  {
+    "timestamp": "2025-12-16 02:24:35",
+    "sample_id": 4,
+    "status": "Malware",
+    "type": "Ransomware",
+    "confidence": 99.99651163272199,
+    "anomaly_score": 0.13064564872543533,
+    "is_anomaly": false
+  },
+  {
+    "timestamp": "2025-12-16 02:24:35",
+    "sample_id": 5,
+    "status": "Malware",
+    "type": "Ransomware",
+    "confidence": 99.99997331106128,
+    "anomaly_score": 0.13550422778705934,
+    "is_anomaly": false
+  },
+  {
+    "timestamp": "2025-12-16 04:29:18",
+    "sample_id": 0,
+    "status": "Benign",
+    "type": "N/A",
+    "confidence": 99.99999999984624,
+    "anomaly_score": 0.08666778188869234,
+    "is_anomaly": false
+  },
+  {
+    "timestamp": "2025-12-16 04:29:18",
+    "sample_id": 1,
+    "status": "Benign",
+    "type": "N/A",
+    "confidence": 99.99999999912382,
+    "anomaly_score": 0.13273732873247368,
+    "is_anomaly": false
+  },
+  {
+    "timestamp": "2025-12-16 04:29:18",
+    "sample_id": 2,
+    "status": "Benign",
+    "type": "N/A",
+    "confidence": 99.99999999973416,
+    "anomaly_score": 0.11103458049769704,
+    "is_anomaly": false
+  },
+  {
+    "timestamp": "2025-12-16 04:29:18",
+    "sample_id": 3,
+    "status": "Malware",
+    "type": "Ransomware",
+    "confidence": 99.98731412941781,
+    "anomaly_score": 0.12619524948306182,
+    "is_anomaly": false
+  },
+  {
+    "timestamp": "2025-12-16 04:29:18",
+    "sample_id": 4,
+    "status": "Malware",
+    "type": "Ransomware",
+    "confidence": 99.99651163272199,
+    "anomaly_score": 0.13064564872543533,
+    "is_anomaly": false
+  },
+  {
+    "timestamp": "2025-12-16 04:29:18",
+    "sample_id": 5,
+    "status": "Malware",
+    "type": "Ransomware",
+    "confidence": 99.99997331106128,
+    "anomaly_score": 0.13550422778705934,
+    "is_anomaly": false
+  },
+  {
+    "timestamp": "2025-12-19 20:27:58",
+    "sample_id": 0,
+    "status": "Benign",
+    "type": "N/A",
+    "confidence": 99.99999999984624,
+    "anomaly_score": 0.08666778188869234,
+    "is_anomaly": false
+  },
+  {
+    "timestamp": "2025-12-19 20:27:58",
+    "sample_id": 1,
+    "status": "Benign",
+    "type": "N/A",
+    "confidence": 99.99999999912382,
+    "anomaly_score": 0.13273732873247368,
+    "is_anomaly": false
+  },
+  {
+    "timestamp": "2025-12-19 20:27:58",
+    "sample_id": 2,
+    "status": "Benign",
+    "type": "N/A",
+    "confidence": 99.99999999973416,
+    "anomaly_score": 0.11103458049769704,
+    "is_anomaly": false
+  },
+  {
+    "timestamp": "2025-12-19 20:27:58",
+    "sample_id": 3,
+    "status": "Malware",
+    "type": "Ransomware",
+    "confidence": 99.98731412941781,
+    "anomaly_score": 0.12619524948306182,
+    "is_anomaly": false
+  },
+  {
+    "timestamp": "2025-12-19 20:27:58",
+    "sample_id": 4,
+    "status": "Malware",
+    "type": "Ransomware",
+    "confidence": 99.99651163272199,
+    "anomaly_score": 0.13064564872543533,
+    "is_anomaly": false
+  },
+  {
+    "timestamp": "2025-12-19 20:27:58",
+    "sample_id": 5,
+    "status": "Malware",
+    "type": "Ransomware",
+    "confidence": 99.99997331106128,
+    "anomaly_score": 0.13550422778705934,
+    "is_anomaly": false
+  },
+  {
+    "timestamp": "2025-12-19 21:17:03",
+    "sample_id": 0,
+    "status": "Benign",
+    "type": "N/A",
+    "confidence": 99.99999999984624,
+    "anomaly_score": 0.08666778188869234,
+    "is_anomaly": false
+  },
+  {
+    "timestamp": "2025-12-19 21:17:03",
+    "sample_id": 1,
+    "status": "Benign",
+    "type": "N/A",
+    "confidence": 99.99999999912382,
+    "anomaly_score": 0.13273732873247368,
+    "is_anomaly": false
+  },
+  {
+    "timestamp": "2025-12-19 21:17:03",
+    "sample_id": 2,
+    "status": "Benign",
+    "type": "N/A",
+    "confidence": 99.99999999973416,
+    "anomaly_score": 0.11103458049769704,
+    "is_anomaly": false
+  },
+  {
+    "timestamp": "2025-12-19 21:17:03",
+    "sample_id": 3,
+    "status": "Malware",
+    "type": "Ransomware",
+    "confidence": 99.98731412941781,
+    "anomaly_score": 0.12619524948306182,
+    "is_anomaly": false
+  },
+  {
+    "timestamp": "2025-12-19 21:17:03",
+    "sample_id": 4,
+    "status": "Malware",
+    "type": "Ransomware",
+    "confidence": 99.99651163272199,
+    "anomaly_score": 0.13064564872543533,
+    "is_anomaly": false
+  },
+  {
+    "timestamp": "2025-12-19 21:17:03",
+    "sample_id": 5,
+    "status": "Malware",
+    "type": "Ransomware",
+    "confidence": 99.99997331106128,
+    "anomaly_score": 0.13550422778705934,
+    "is_anomaly": false
+  }
+]

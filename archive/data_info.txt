@@ -1,0 +1,476 @@
+Dataset loaded successfully.
+
+First 5 rows:
+  Category  pslist.nproc  pslist.nppid  pslist.avg_threads  \
+0   Benign            45            17           10.555556   
+1   Benign            47            19           11.531915   
+2   Benign            40            14           14.725000   
+3   Benign            32            13           13.500000   
+4   Benign            42            16           11.452381   
+
+   pslist.nprocs64bit  pslist.avg_handlers  dlllist.ndlls  \
+0                   0           202.844444           1694   
+1                   0           242.234043           2074   
+2                   0           288.225000           1932   
+3                   0           264.281250           1445   
+4                   0           281.333333           2067   
+
+   dlllist.avg_dlls_per_proc  handles.nhandles  handles.avg_handles_per_proc  \
+0                  38.500000              9129                    212.302326   
+1                  44.127660             11385                    242.234043   
+2                  48.300000             11529                    288.225000   
+3                  45.156250              8457                    264.281250   
+4                  49.214286             11816                    281.333333   
+
+   handles.nport  handles.nfile  handles.nevent  handles.ndesktop  \
+0              0            670            3161                46   
+1              0            840            3761                51   
+2              0           1050            3996                45   
+3              0            630            2961                36   
+4              0            908            3834                45   
+
+   handles.nkey  handles.nthread  handles.ndirectory  handles.nsemaphore  \
+0           716              887                 104                 671   
+1          1011             1030                 117                 766   
+2           784             1241                 100                 645   
+3           654              792                  83                 567   
+4          1252              942                 103                 825   
+
+   handles.ntimer  handles.nsection  handles.nmutant  ldrmodules.not_in_load  \
+0             125               184              257                      53   
+1             148               337              394                      77   
+2             138               369              338                      51   
+3             127               186              242                      31   
+4             135               375              429                     102   
+
+   ldrmodules.not_in_init  ldrmodules.not_in_mem  ldrmodules.not_in_load_avg  \
+0                      95                     53                    0.030372   
+1                     123                     77                    0.036167   
+2                      89                     51                    0.026114   
+3                      62                     31                    0.021483   
+4                     143                    102                    0.047820   
+
+   ldrmodules.not_in_init_avg  ldrmodules.not_in_mem_avg  malfind.ninjections  \
+0                    0.054441                   0.030372                    5   
+1                    0.057774                   0.036167                   12   
+2                    0.045571                   0.026114                    5   
+3                    0.042966                   0.021483                    2   
+4                    0.067042                   0.047820                   12   
+
+   malfind.commitCharge  malfind.protection  malfind.uniqueInjections  \
+0                    21                  30                  1.250000   
+1                    77                  72                  1.714286   
+2                     6                  30                  1.250000   
+3                     2                  12                  1.000000   
+4                    77                  72                  2.000000   
+
+   psxview.not_in_pslist  psxview.not_in_eprocess_pool  \
+0                      2                             0   
+1                      0                             0   
+2                      0                             0   
+3                      0                             0   
+4                      4                             0   
+
+   psxview.not_in_ethread_pool  psxview.not_in_pspcid_list  \
+0                            3                           2   
+1                            0                           0   
+2                            0                           0   
+3                            0                           0   
+4                            4                           4   
+
+   psxview.not_in_csrss_handles  psxview.not_in_session  \
+0                             7                       4   
+1                             4                       2   
+2                             4                       2   
+3                             4                       2   
+4                             8                       6   
+
+   psxview.not_in_deskthrd  psxview.not_in_pslist_false_avg  \
+0                        9                         0.042553   
+1                        6                         0.000000   
+2                        5                         0.000000   
+3                        6                         0.000000   
+4                       10                         0.086957   
+
+   psxview.not_in_eprocess_pool_false_avg  \
+0                                     0.0   
+1                                     0.0   
+2                                     0.0   
+3                                     0.0   
+4                                     0.0   
+
+   psxview.not_in_ethread_pool_false_avg  \
+0                               0.063830   
+1                               0.000000   
+2                               0.000000   
+3                               0.000000   
+4                               0.086957   
+
+   psxview.not_in_pspcid_list_false_avg  \
+0                              0.042553   
+1                              0.000000   
+2                              0.000000   
+3                              0.000000   
+4                              0.086957   
+
+   psxview.not_in_csrss_handles_false_avg  psxview.not_in_session_false_avg  \
+0                                0.148936                          0.085106   
+1                                0.085106                          0.042553   
+2                                0.100000                          0.050000   
+3                                0.125000                          0.062500   
+4                                0.173913                          0.130435   
+
+   psxview.not_in_deskthrd_false_avg  modules.nmodules  svcscan.nservices  \
+0                           0.191489               138                389   
+1                           0.127660               138                392   
+2                           0.125000               137                395   
+3                           0.187500               138                395   
+4                           0.217391               138                392   
+
+   svcscan.kernel_drivers  svcscan.fs_drivers  svcscan.process_services  \
+0                     221                  26                        24   
+1                     222                  26                        24   
+2                     222                  26                        27   
+3                     222                  26                        27   
+4                     222                  26                        24   
+
+   svcscan.shared_process_services  svcscan.interactive_process_services  \
+0                              116                                     0   
+1                              118                                     0   
+2                              118                                     0   
+3                              118                                     0   
+4                              118                                     0   
+
+   svcscan.nactive  callbacks.ncallbacks  callbacks.nanonymous  \
+0              121                    87                     0   
+1              122                    87                     0   
+2              120                    88                     0   
+3              120                    88                     0   
+4              124                    87                     0   
+
+   callbacks.ngeneric   Class  
+0                   8  Benign  
+1                   8  Benign  
+2                   8  Benign  
+3                   8  Benign  
+4                   8  Benign  
+
+Info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 58596 entries, 0 to 58595
+Data columns (total 57 columns):
+ #   Column                                  Non-Null Count  Dtype  
+---  ------                                  --------------  -----  
+ 0   Category                                58596 non-null  object 
+ 1   pslist.nproc                            58596 non-null  int64  
+ 2   pslist.nppid                            58596 non-null  int64  
+ 3   pslist.avg_threads                      58596 non-null  float64
+ 4   pslist.nprocs64bit                      58596 non-null  int64  
+ 5   pslist.avg_handlers                     58596 non-null  float64
+ 6   dlllist.ndlls                           58596 non-null  int64  
+ 7   dlllist.avg_dlls_per_proc               58596 non-null  float64
+ 8   handles.nhandles                        58596 non-null  int64  
+ 9   handles.avg_handles_per_proc            58596 non-null  float64
+ 10  handles.nport                           58596 non-null  int64  
+ 11  handles.nfile                           58596 non-null  int64  
+ 12  handles.nevent                          58596 non-null  int64  
+ 13  handles.ndesktop                        58596 non-null  int64  
+ 14  handles.nkey                            58596 non-null  int64  
+ 15  handles.nthread                         58596 non-null  int64  
+ 16  handles.ndirectory                      58596 non-null  int64  
+ 17  handles.nsemaphore                      58596 non-null  int64  
+ 18  handles.ntimer                          58596 non-null  int64  
+ 19  handles.nsection                        58596 non-null  int64  
+ 20  handles.nmutant                         58596 non-null  int64  
+ 21  ldrmodules.not_in_load                  58596 non-null  int64  
+ 22  ldrmodules.not_in_init                  58596 non-null  int64  
+ 23  ldrmodules.not_in_mem                   58596 non-null  int64  
+ 24  ldrmodules.not_in_load_avg              58596 non-null  float64
+ 25  ldrmodules.not_in_init_avg              58596 non-null  float64
+ 26  ldrmodules.not_in_mem_avg               58596 non-null  float64
+ 27  malfind.ninjections                     58596 non-null  int64  
+ 28  malfind.commitCharge                    58596 non-null  int64  
+ 29  malfind.protection                      58596 non-null  int64  
+ 30  malfind.uniqueInjections                58596 non-null  float64
+ 31  psxview.not_in_pslist                   58596 non-null  int64  
+ 32  psxview.not_in_eprocess_pool            58596 non-null  int64  
+ 33  psxview.not_in_ethread_pool             58596 non-null  int64  
+ 34  psxview.not_in_pspcid_list              58596 non-null  int64  
+ 35  psxview.not_in_csrss_handles            58596 non-null  int64  
+ 36  psxview.not_in_session                  58596 non-null  int64  
+ 37  psxview.not_in_deskthrd                 58596 non-null  int64  
+ 38  psxview.not_in_pslist_false_avg         58596 non-null  float64
+ 39  psxview.not_in_eprocess_pool_false_avg  58596 non-null  float64
+ 40  psxview.not_in_ethread_pool_false_avg   58596 non-null  float64
+ 41  psxview.not_in_pspcid_list_false_avg    58596 non-null  float64
+ 42  psxview.not_in_csrss_handles_false_avg  58596 non-null  float64
+ 43  psxview.not_in_session_false_avg        58596 non-null  float64
+ 44  psxview.not_in_deskthrd_false_avg       58596 non-null  float64
+ 45  modules.nmodules                        58596 non-null  int64  
+ 46  svcscan.nservices                       58596 non-null  int64  
+ 47  svcscan.kernel_drivers                  58596 non-null  int64  
+ 48  svcscan.fs_drivers                      58596 non-null  int64  
+ 49  svcscan.process_services                58596 non-null  int64  
+ 50  svcscan.shared_process_services         58596 non-null  int64  
+ 51  svcscan.interactive_process_services    58596 non-null  int64  
+ 52  svcscan.nactive                         58596 non-null  int64  
+ 53  callbacks.ncallbacks                    58596 non-null  int64  
+ 54  callbacks.nanonymous                    58596 non-null  int64  
+ 55  callbacks.ngeneric                      58596 non-null  int64  
+ 56  Class                                   58596 non-null  object 
+dtypes: float64(15), int64(40), object(2)
+memory usage: 25.5+ MB
+
+
+Description:
+       pslist.nproc  pslist.nppid  pslist.avg_threads  pslist.nprocs64bit  \
+count  58596.000000  58596.000000        58596.000000             58596.0   
+mean      41.394771     14.713837           11.341655                 0.0   
+std        5.777249      2.656748            1.588231                 0.0   
+min       21.000000      8.000000            1.650000                 0.0   
+25%       40.000000     12.000000            9.972973                 0.0   
+50%       41.000000     15.000000           11.000000                 0.0   
+75%       43.000000     16.000000           12.861955                 0.0   
+max      240.000000     72.000000           16.818182                 0.0   
+
+       pslist.avg_handlers  dlllist.ndlls  dlllist.avg_dlls_per_proc  \
+count         58596.000000   58596.000000               58596.000000   
+mean            247.509819    1810.805447                  43.707806   
+std             111.857790     329.782639                   5.742023   
+min              34.962500     670.000000                   7.333333   
+25%             208.725000    1556.000000                  38.833333   
+50%             243.963710    1735.000000                  42.781524   
+75%             289.974322    2087.000000                  49.605280   
+max           24845.951220    3443.000000                  53.170732   
+
+       handles.nhandles  handles.avg_handles_per_proc  handles.nport  \
+count      5.859600e+04                  58596.000000        58596.0   
+mean       1.025858e+04                    249.560958            0.0   
+std        4.866864e+03                    145.999866            0.0   
+min        3.514000e+03                     71.139241            0.0   
+25%        8.393000e+03                    209.648228            0.0   
+50%        9.287500e+03                    247.208951            0.0   
+75%        1.219300e+04                    291.355050            0.0   
+max        1.047310e+06                  33784.193550            0.0   
+
+       handles.nfile  handles.nevent  handles.ndesktop  handles.nkey  \
+count   58596.000000    58596.000000      58596.000000  58596.000000   
+mean      899.119513     3572.409960         44.529166    774.280668   
+std      3432.351200      805.460522          5.161254    150.407075   
+min       266.000000      966.000000         22.000000    284.000000   
+25%       646.000000     2923.000000         43.000000    675.000000   
+50%       839.000000     3151.000000         45.000000    753.000000   
+75%      1080.000000     4321.000000         46.000000    859.000000   
+max    807008.000000     7892.000000        159.000000   2668.000000   
+
+       handles.nthread  handles.ndirectory  handles.nsemaphore  \
+count     58596.000000        58596.000000        58596.000000   
+mean        928.510086          102.398338          683.339324   
+std         237.817566            9.782695           94.531078   
+min         388.000000           57.000000          296.000000   
+25%         708.000000           99.000000          614.000000   
+50%         848.000000          103.000000          684.000000   
+75%        1169.000000          107.000000          750.000000   
+max        5637.000000          498.000000         4268.000000   
+
+       handles.ntimer  handles.nsection  handles.nmutant  \
+count    58596.000000      58596.000000     58596.000000   
+mean       130.327855        290.127466       312.588829   
+std         14.965266        144.278832        73.173189   
+min         69.000000         50.000000       118.000000   
+25%        120.000000        177.000000       258.000000   
+50%        131.000000        224.000000       289.000000   
+75%        142.000000        415.000000       366.000000   
+max        382.000000      14687.000000       583.000000   
+
+       ldrmodules.not_in_load  ldrmodules.not_in_init  ldrmodules.not_in_mem  \
+count            58596.000000            58596.000000           58596.000000   
+mean                60.830347               99.946413              60.832599   
+std                 18.761422               21.438482              18.759947   
+min                  6.000000               16.000000               6.000000   
+25%                 46.000000               85.000000              46.000000   
+50%                 57.000000               97.000000              57.000000   
+75%                 74.000000              115.000000              74.000000   
+max                240.000000              264.000000             240.000000   
+
+       ldrmodules.not_in_load_avg  ldrmodules.not_in_init_avg  \
+count                58596.000000                58596.000000   
+mean                     0.033170                    0.055223   
+std                      0.009263                    0.010112   
+min                      0.016176                    0.040526   
+25%                      0.028846                    0.052397   
+50%                      0.031361                    0.054036   
+75%                      0.036430                    0.056010   
+max                      0.531120                    0.585062   
+
+       ldrmodules.not_in_mem_avg  malfind.ninjections  malfind.commitCharge  \
+count               58596.000000         58596.000000          58596.000000   
+mean                    0.033171             7.010274            969.199229   
+std                     0.009266            15.390647           6041.620916   
+min                     0.016176             1.000000              1.000000   
+25%                     0.028846             3.000000              3.000000   
+50%                     0.031361             4.000000              4.000000   
+75%                     0.036430             5.000000              6.000000   
+max                     0.531120           627.000000         220850.000000   
+
+       malfind.protection  malfind.uniqueInjections  psxview.not_in_pslist  \
+count        58596.000000              58596.000000           58596.000000   
+mean            42.282408                  1.733699               1.875845   
+std             92.337061                  2.741343               2.995955   
+min              6.000000                  1.000000               0.000000   
+25%             18.000000                  1.000000               0.000000   
+50%             24.000000                  1.250000               1.000000   
+75%             30.000000                  1.333333               3.000000   
+max           3762.000000                 90.666667              43.000000   
+
+       psxview.not_in_eprocess_pool  psxview.not_in_ethread_pool  \
+count                  58596.000000                 58596.000000   
+mean                       0.002082                     2.273500   
+std                        0.045582                     4.621418   
+min                        0.000000                     0.000000   
+25%                        0.000000                     0.000000   
+50%                        0.000000                     1.000000   
+75%                        0.000000                     3.000000   
+max                        1.000000                   201.000000   
+
+       psxview.not_in_pspcid_list  psxview.not_in_csrss_handles  \
+count                58596.000000                  58596.000000   
+mean                     1.879463                      6.276572   
+std                      3.017659                      4.622047   
+min                      0.000000                      4.000000   
+25%                      0.000000                      4.000000   
+50%                      1.000000                      5.000000   
+75%                      3.000000                      7.000000   
+max                     43.000000                    205.000000   
+
+       psxview.not_in_session  psxview.not_in_deskthrd  \
+count            58596.000000             58596.000000   
+mean                 3.875589                 8.256605   
+std                  2.995970                 4.736886   
+min                  2.000000                 4.000000   
+25%                  2.000000                 6.000000   
+50%                  3.000000                 7.000000   
+75%                  5.000000                 9.000000   
+max                 45.000000               207.000000   
+
+       psxview.not_in_pslist_false_avg  \
+count                     58596.000000   
+mean                          0.040991   
+std                           0.057563   
+min                           0.000000   
+25%                           0.000000   
+50%                           0.021739   
+75%                           0.068182   
+max                           0.551282   
+
+       psxview.not_in_eprocess_pool_false_avg  \
+count                            58596.000000   
+mean                                 0.000080   
+std                                  0.001269   
+min                                  0.000000   
+25%                                  0.000000   
+50%                                  0.000000   
+75%                                  0.000000   
+max                                  0.043478   
+
+       psxview.not_in_ethread_pool_false_avg  \
+count                           58596.000000   
+mean                                0.047745   
+std                                 0.066907   
+min                                 0.000000   
+25%                                 0.000000   
+50%                                 0.023256   
+75%                                 0.069767   
+max                                 0.837500   
+
+       psxview.not_in_pspcid_list_false_avg  \
+count                          58596.000000   
+mean                               0.041078   
+std                                0.058216   
+min                                0.000000   
+25%                                0.000000   
+50%                                0.021739   
+75%                                0.068182   
+max                                1.000000   
+
+       psxview.not_in_csrss_handles_false_avg  \
+count                            58596.000000   
+mean                                 0.141784   
+std                                  0.061438   
+min                                  0.025806   
+25%                                  0.100000   
+50%                                  0.119048   
+75%                                  0.166180   
+max                                  0.854167   
+
+       psxview.not_in_session_false_avg  psxview.not_in_deskthrd_false_avg  \
+count                      58596.000000                       58596.000000   
+mean                           0.087964                           0.187701   
+std                            0.055040                           0.061534   
+min                            0.008333                           0.043750   
+25%                            0.048780                           0.146341   
+50%                            0.066667                           0.166465   
+75%                            0.113636                           0.211691   
+max                            0.576923                           0.862500   
+
+       modules.nmodules  svcscan.nservices  svcscan.kernel_drivers  \
+count      58596.000000       58596.000000            58596.000000   
+mean         137.961465         391.347549              221.406581   
+std            0.198251           4.529704                1.991087   
+min          126.000000          94.000000               55.000000   
+25%          138.000000         389.000000              221.000000   
+50%          138.000000         389.000000              221.000000   
+75%          138.000000         395.000000              222.000000   
+max          138.000000         395.000000              222.000000   
+
+       svcscan.fs_drivers  svcscan.process_services  \
+count        58596.000000              58596.000000   
+mean            25.996245                 25.063417   
+std              0.170790                  1.529628   
+min              6.000000                  7.000000   
+25%             26.000000                 24.000000   
+50%             26.000000                 24.000000   
+75%             26.000000                 27.000000   
+max             26.000000                 27.000000   
+
+       svcscan.shared_process_services  svcscan.interactive_process_services  \
+count                     58596.000000                               58596.0   
+mean                        116.879514                                   0.0   
+std                           1.550401                                   0.0   
+min                          26.000000                                   0.0   
+25%                         116.000000                                   0.0   
+50%                         116.000000                                   0.0   
+75%                         118.000000                                   0.0   
+max                         118.000000                                   0.0   
+
+       svcscan.nactive  callbacks.ncallbacks  callbacks.nanonymous  \
+count     58596.000000          58596.000000          58596.000000   
+mean        121.995546             86.905659              0.000853   
+std           2.822858              3.134117              0.029199   
+min          30.000000             50.000000              0.000000   
+25%         121.000000             87.000000              0.000000   
+50%         122.000000             87.000000              0.000000   
+75%         123.000000             88.000000              0.000000   
+max         129.000000             89.000000              1.000000   
+
+       callbacks.ngeneric  
+count        58596.000000  
+mean             7.999881  
+std              0.010929  
+min              7.000000  
+25%              8.000000  
+50%              8.000000  
+75%              8.000000  
+max              8.000000  
+
+Columns:
+['Category', 'pslist.nproc', 'pslist.nppid', 'pslist.avg_threads', 'pslist.nprocs64bit', 'pslist.avg_handlers', 'dlllist.ndlls', 'dlllist.avg_dlls_per_proc', 'handles.nhandles', 'handles.avg_handles_per_proc', 'handles.nport', 'handles.nfile', 'handles.nevent', 'handles.ndesktop', 'handles.nkey', 'handles.nthread', 'handles.ndirectory', 'handles.nsemaphore', 'handles.ntimer', 'handles.nsection', 'handles.nmutant', 'ldrmodules.not_in_load', 'ldrmodules.not_in_init', 'ldrmodules.not_in_mem', 'ldrmodules.not_in_load_avg', 'ldrmodules.not_in_init_avg', 'ldrmodules.not_in_mem_avg', 'malfind.ninjections', 'malfind.commitCharge', 'malfind.protection', 'malfind.uniqueInjections', 'psxview.not_in_pslist', 'psxview.not_in_eprocess_pool', 'psxview.not_in_ethread_pool', 'psxview.not_in_pspcid_list', 'psxview.not_in_csrss_handles', 'psxview.not_in_session', 'psxview.not_in_deskthrd', 'psxview.not_in_pslist_false_avg', 'psxview.not_in_eprocess_pool_false_avg', 'psxview.not_in_ethread_pool_false_avg', 'psxview.not_in_pspcid_list_false_avg', 'psxview.not_in_csrss_handles_false_avg', 'psxview.not_in_session_false_avg', 'psxview.not_in_deskthrd_false_avg', 'modules.nmodules', 'svcscan.nservices', 'svcscan.kernel_drivers', 'svcscan.fs_drivers', 'svcscan.process_services', 'svcscan.shared_process_services', 'svcscan.interactive_process_services', 'svcscan.nactive', 'callbacks.ncallbacks', 'callbacks.nanonymous', 'callbacks.ngeneric', 'Class']
+
+Missing values:
+0
+
+Class distribution:
+Class
+Benign     29298
+Malware    29298
+Name: count, dtype: int64
